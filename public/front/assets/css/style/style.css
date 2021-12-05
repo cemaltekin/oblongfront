@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: #f9f8f8;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ccc;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: gray;
+}
+
+body #menu-toggle:checked + #menu {
+  display: block;
+}
+
+body #header {
+  -webkit-transition: 500ms height;
+  transition: 500ms height;
+  height: 104px;
+  z-index: 9998;
+}
+
+body .active {
+  color: #ff5421 !important;
+}
+
+body .menu-responsive {
+  height: 90px !important;
+  background-color: white !important;
+  -webkit-box-shadow: 1px 1px 40px;
+          box-shadow: 1px 1px 40px;
+}
+
+body #carousel-item-1 {
+  background: url(/front/assets/images/carousel/1.webp) no-repeat center center;
+}
+
+body #carousel-item-2 {
+  background: url(/front/assets/images/carousel/2.webp) no-repeat center center;
+}
+
+body #how-to-system {
+  background: url(/front//assets/images/main-home.webp) no-repeat;
+  background-size: cover;
+}
+
+body .accordion__content {
+  max-height: 0em;
+  -webkit-transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+body input[name="panel"]:checked ~ label {
+  background-color: #ff5421;
+  color: white;
+}
+
+body input[name="panel"]:checked ~ .accordion__content {
+  max-height: 50em;
+}
+
+body #right-menu {
+  right: -450px;
+  width: 450px;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  z-index: 9999;
+}
+
+body #right-menu div span {
+  background-color: #ff5421;
+  color: white;
+  border: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: 1s -webkit-transform;
+  transition: 1s -webkit-transform;
+  transition: 1s transform;
+  transition: 1s transform, 1s -webkit-transform;
+}
+
+body #right-menu div span:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+body ul.social li a {
+  -webkit-transition: 500ms color;
+  transition: 500ms color;
+}
+
+body ul.social li a:hover {
+  color: #ff5421;
+}
+
+body ul.social li a i {
+  font-size: 20px;
+}
+
+body .font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+body .font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+body #menu > nav > ul > li a:hover {
+  color: #ff5421 !important;
+}
+
+body .menu-child {
+  border-bottom: 5px solid #ff5421;
+  -webkit-transition: max-height 2s, opacity 1s;
+  transition: max-height 2s, opacity 1s;
+  overflow: hidden;
+  opacity: 0;
+  top: 100%;
+  min-width: 200px !important;
+  max-height: 0 !important;
+}
+
+body .dropdown-item:hover .menu-child {
+  max-height: 500px !important;
+  opacity: 1 !important;
+}
+
+body .menu-child li {
+  margin-top: 20px;
+}
+
+body #header > div.hidden.lg\:flex.gap-4.items-center.justify-center.text-gray-500 > a:hover {
+  color: #ff5421;
+}
+
+body .item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover !important;
+}
+
+body .carousel-title {
+  color: #ff5421;
+  font-size: 22px;
+  -webkit-animation: bounce 2s 2;
+          animation: bounce 2s 2;
+}
+
+body .carousel-text {
+  font-size: 50px;
+  -webkit-animation: bounce 2s 2;
+          animation: bounce 2s 2;
+}
+
+body .package-btn {
+  background-color: #ff5421;
+  visibility: visible;
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+body .package-btn:hover {
+  background-color: #171f32;
+}
+
+body .cards {
+  bottom: 5%;
+}
+
+body .cards .card {
+  background-color: #171f32;
+  color: white;
+  -webkit-transition: 500ms margin ease-in-out;
+  transition: 500ms margin ease-in-out;
+}
+
+body .cards .card > div.flex-1.flex.flex-col :nth-child(1) {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+body .cards .card > div.flex-1.flex.flex-col :nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body .cards .card:hover {
+  margin-top: -20px !important;
+  margin-bottom: 20px !important;
+}
+
+body .cards .card-xl {
+  background: -webkit-linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0) 50%);
+  background-image: -webkit-linear-gradient(bottom, black 0%, rgba(0, 0, 0, 0) 50%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(50%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0) 50%);
+  background-image: -webkit-linear-gradient(bottom, black 0%, rgba(0, 0, 0, 0) 50%);
+  background: -moz-linear-gradient(bottom, #000000 0%, rgba(0, 0, 0, 0) 50%);
+  background-image: -webkit-linear-gradient(bottom, black 0%, rgba(0, 0, 0, 0) 50%);
+  background-color: #031a3d;
+  -webkit-transition: 500ms margin ease-in-out;
+  transition: 500ms margin ease-in-out;
+}
+
+body .cards .card-xl:hover {
+  margin-top: -20px !important;
+  margin-bottom: 20px !important;
+}
+
+body > div.flex-1.flex.flex-col .fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+body .packages .package .package-header {
+  background-color: #031a3d;
+}
+
+body .packages .package .package-header .price span {
+  background-color: #ff5421;
+  color: white;
+}
+
+body #newsletter {
+  background-color: #171f32;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body #newsletter i {
+  color: #ff5421;
+}
+
+body #newsletter a {
+  background-color: #ff5421;
+}
+
+body #search {
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 99999;
+  display: none;
+}
+
+body #search input::-webkit-input-placeholder {
+  color: white;
+}
+
+body #search input:-ms-input-placeholder {
+  color: white;
+}
+
+body #search input::-ms-input-placeholder {
+  color: white;
+}
+
+body #search input::placeholder {
+  color: white;
+}
+
+body footer {
+  background-color: #151515;
+}
+
+body footer ul > li div a {
+  -webkit-transition: 500ms color;
+  transition: 500ms color;
+}
+
+body footer ul > li div a:hover {
+  color: #ff5421;
+}
+
+body footer ul li h5 {
+  display: inline;
+  border-color: #ff5421;
+}
+
+body footer ul :nth-child(2) div i {
+  color: #ff5421;
+  font-size: 24px;
+}
+
+body footer ul :nth-child(2) a {
+  -webkit-transition: 500ms color;
+  transition: 500ms color;
+}
+
+body footer ul :nth-child(2) a:hover {
+  color: #ff5421;
+}
+/*# sourceMappingURL=style.css.map */

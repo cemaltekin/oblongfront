@@ -1,0 +1,10 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html #about .about-title,
+body #about .about-title {
+  color: #ff5421;
+}
+/*# sourceMappingURL=style.css.map */

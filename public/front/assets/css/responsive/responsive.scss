@@ -1,0 +1,82 @@
+
+@media (max-width: 280px) {
+    .card-footer {
+        margin-top: 50px !important;
+    }
+    #systemUseIframe {
+        min-height: 250px !important;
+    }
+}
+@media (min-width: 281px) and (max-width: 375px) {
+    .card-footer {
+        margin-top: 150px !important;
+    }
+    #systemUseIframe {
+        min-height: 330px !important;
+    }
+    #packages{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .card-footer {
+        margin-top: 180px !important;
+    }
+    #systemUseIframe {
+        min-height: 400px !important;
+    }
+    #packages{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+@media (min-width: 415px) and (max-width: 540px) {
+    .card-footer {
+        margin-top: 300px !important;
+    }
+    #systemUseIframe {
+        min-height: 450px !important;
+    }
+    #packages{
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+@media (max-width: 500px) {
+    .card-content {
+        font-size: 12px !important;
+    }
+    .card-footer {
+        .title {
+            font-size: 14px !important;
+        }
+        .text {
+            font-size: 12px !important;
+        }
+        #systemUseIframe {
+            min-height: 450px !important;
+        }
+    }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    .menu-child {
+        border: 0 !important;
+    }
+    .item {
+        height: 84vh !important;
+    }
+    .carousel-title {
+        font-size: 20px !important;
+    }
+    .carousel-text {
+        font-size: 35px !important;
+    }
+    #header {
+        background-color: white !important;
+    }
+    #systemUseIframe {
+        min-height: 450px !important;
+    }
+}

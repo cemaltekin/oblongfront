@@ -1,0 +1,33 @@
+$oblongorange: #ff5421;
+html,
+body {
+    scroll-behavior: smooth;
+    // #about-left {
+    //     ul {
+    //         li {
+    //             &:hover {
+    //                 color: $oblongorange;
+    //             }
+    //         }
+    //         .active {
+    //             color: $oblongorange;
+    //         }
+    //     }
+    // }
+    #about {
+        .about-title {
+            color: $oblongorange;
+        }
+    }
+    // DAHA SONRA EKLENEBİLİR
+    // .team {
+    //     .team-body {
+    //         width: 150px !important;
+    //         height: 180px !important;
+    //     }
+    //     span {
+    //         color: $oblongorange;
+    //         font-size: 12px;
+    //     }
+    // }
+}
